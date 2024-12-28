@@ -1,5 +1,7 @@
 import streamlit as st
-from google.cloud import aiplatform
+# from google.cloud import aiplatform
+import google.cloud.aiplatform as aiplatform
+
 import pdfplumber
 import google.generativeai as genai
 import os
